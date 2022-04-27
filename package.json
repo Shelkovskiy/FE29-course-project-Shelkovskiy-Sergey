@@ -1,0 +1,23 @@
+{
+  "name": "fe29-course-project-shelkovskiy-sergey",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "course-project/src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Sergey Shelkovskiy",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "gulp-concat": "^2.6.1",
+    "parcel": "^2.5.0",
+    "sass": "^1.51.0",
+    "server": "^1.0.37"
+  },
+  "dependencies": {
+    "Server": "npm:server@^1.0.37"
+  }
+}
