@@ -19,5 +19,14 @@
   },
   "dependencies": {
     "Server": "npm:server@^1.0.37"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shelkovskiy/FE29-course-project-Shelkovskiy-Sergey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shelkovskiy/FE29-course-project-Shelkovskiy-Sergey/issues"
+  },
+  "homepage": "https://github.com/Shelkovskiy/FE29-course-project-Shelkovskiy-Sergey#readme"
 }
