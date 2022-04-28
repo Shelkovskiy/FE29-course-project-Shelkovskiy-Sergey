@@ -1,4 +1,4 @@
-.header {padding: 36px 0 120px;
+.header {padding: 0px 0 120px;
   background-image: url(./img/bg.png);
    background-repeat: no-repeat;
    background-position: center;
@@ -26,7 +26,6 @@
    display: flex;
 justify-content: space-between;
 align-items: center;
-padding: 36px 0 32px;
 border-bottom: 1px solid $grey ;
 
 .logo {width: 270px;
@@ -56,11 +55,10 @@ border-bottom: 1px solid $grey ;
         
                                
      }  
-     
-           }
+                }
    a{
       font-size: $_13px;
-         line-height: 28px;
+         line-height: 60px;
          font-weight: 700;
          text-align: center;
          color: $white;
