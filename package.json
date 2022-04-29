@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "source": "course-project/src/index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
@@ -12,12 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.5.0",
-    
     "parcel": "^2.5.0",
     "sass": "^1.51.0"
-  },
-  "dependencies": {
-    
   },
   "main": "index.js",
   "repository": {
