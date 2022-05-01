@@ -1,21 +1,90 @@
-.banner{
-   padding: 113px 0 116px;
-}
-.card{margin: 0 10px;
-   &:nth-child(1){
-      margin-bottom: 88px;
+.banner{padding: 113px 0 116px;
+   @media (width:1024px)
+   {padding: 78px 0 80px;
+
    }
-   &:nth-child(2){
-      margin-bottom: 88px;
-   }
-   &:nth-child(3){
-      margin-bottom: 88px;
+   @media (width:320px){
+ padding: 40px 0 35px ;
    }
    
+}
+.card{margin: 0 10px; 
       @include card;
-    &-img{ width: 100px;
+      &:nth-child(1){
+         margin-bottom: 88px;
+      }
+      &:nth-child(2){
+         margin-bottom: 88px;
+      }
+      &:nth-child(3){
+         margin-bottom: 88px;
+      }
+
+      @media (width:1024px){
+      width: 315px;
+      margin: 0 5px ;
+      &:nth-child(1){
+         margin-bottom: 50px;
+      }
+      &:nth-child(2){
+         margin-bottom: 50px;
+      }
+      &:nth-child(3){
+         margin-bottom: 50px;
+      }
+    
+      }
+
+      @media (width:320px){
+         width: 280px;
+         margin-bottom: 42px;
+         margin: 0;
+         &:nth-child(1){
+            margin-bottom: 42px;
+         }
+         &:nth-child(2){
+            margin-bottom: 42px;
+         }
+         &:nth-child(3){
+            margin-bottom: 42px;
+         }
+         &:nth-child(4){
+            margin-bottom: 42px;
+         }
+         &:nth-child(5){
+            margin-bottom: 42px;
+         }
+         
+      &:last-child{
+         margin-bottom: 0;
+      }
+        
+
+      }
+      
+
+   &-img{ width: 100px;
     height: 100px;
    margin:0 auto 29px;
+   @media (width:1024px){ 
+      width: 85px;
+      height: 85px;    
+      margin:0 auto 24px;
+      img{
+         height: 85px;
+         width: 85px;
+      }
+   }
+   @media (width:320px){
+      width: 75px;
+      height: 75px;
+      margin: 0 auto 22px;
+      img{
+         height: 75px;
+         width: 75px;
+      }
+   }
+   
          }
  
   &-title{
@@ -27,6 +96,18 @@
      vertical-align: center;
      color:$titleblack ;
      margin-bottom: 20px;
+     @media (width:1024px){
+        font-size: $_18px;
+        line-height: $_21px;
+        margin-bottom: 14px;
+     }
+     @media (width:320px)
+     {font-size: $_18px;
+      line-height: $_21px;
+      margin-bottom: 10px;
+      
+
+     }
    }
    &-about{
        
@@ -36,6 +117,18 @@
          line-height: $_21px ;
          text-align: center;
          color:$grey ;
+         @media (width:1024px){
+            width: 315px;
+            font-size: $_14px;
+            line-height: 16px;
+
+         }
+         @media (width:320px)
+         {width: 280px;
+            font-size: $_14px;
+            line-height: 16px;
+
+         }
       }
    }
    
