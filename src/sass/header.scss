@@ -1,12 +1,14 @@
-.header {padding: 0px 0 120px;
+.header {padding: 6px 0 120px;
   background-image: url(./img/bg.png);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;  
    position: relative;
-   
-}
 
+   }
+
+
+   
 .header::before{
    content: "";
    width: 100%;
@@ -29,6 +31,12 @@ align-items: center;
 border-bottom: 1px solid $grey ;
 
 .logo {width: 270px;
+   
+
+   @media(width:1024px){
+      width: 231px;
+      
+   }
 &::after{
    content: 'BOX';
    width: 60px;
@@ -37,6 +45,10 @@ border-bottom: 1px solid $grey ;
 }
 .navigation {
    width: 670px;
+   @media(width:1024px){
+      width: 566px;
+      
+   }
    &-list{
       display:flex;
       justify-content: space-between;
@@ -44,7 +56,8 @@ border-bottom: 1px solid $grey ;
     &-item{
        width: 134px;
        border-bottom: 3px solid transparent;
-       
+       @media(width:1024px){
+         width: 112px;
      
        
      &:hover{
@@ -64,6 +77,11 @@ border-bottom: 1px solid $grey ;
          color: $white;
          position: relative;
          text-transform: uppercase;
+         @media(width: 1024px){
+         font-size: $_12px;
+         line-height: 14px;
+         line-height: 38px;
+         }
 
          &:active{
             color:$active_RED;
@@ -73,7 +91,7 @@ border-bottom: 1px solid $grey ;
          }
    }
      }   
-   }
+   }}
  .main-title{margin-top: 129px;
     width: 1170px;
     font-size: $_64px;
@@ -82,16 +100,33 @@ border-bottom: 1px solid $grey ;
     font-weight: 900;
     color:$white;
     text-transform: uppercase;
- }  
+    @media(width:1024px){
+      width: 984px;
+      margin-top: 157px;
+      font-size: $_48px;
+      line-height: $_56px;
+ } } 
 .header-text{margin-top: 31px;
-   width: 1170px;
+   
+   @media(width:1024px){
+      width: 984px;
+      margin-top: 62px;
+      
+ } 
+
    p{width: 1170px;
       font-size: $_24px;
-      line-height: 28px;
+      line-height: $_28px;
       text-align: center;
       font-weight: 400;
       color:$white;
-      text-transform: uppercase;
+      
+      @media(width: 1024px){
+         width: 984px;
+         font-size: $_18px;
+      line-height: $_21px;
+      }
+     
    }
 }
 
@@ -103,11 +138,16 @@ border-bottom: 1px solid $grey ;
    line-height: 28px;
    text-align: center;
    color: $white;
-   font-weight: 900;
-   
+   font-weight: 900;   
    display: block;
    margin: auto;
-   margin-top: 80px;
+   margin-top: 80px; 
+   
+   @media(width:1024px) {
+      width: 314px;
+      margin-top: 89px;
+
+   }
 
    &:active{
       background-color: $active_RED;
@@ -116,9 +156,9 @@ border-bottom: 1px solid $grey ;
    &:hover{
       transform: scale(1.05);
       background-color: $hover_red;
-      
-
+    
    }
+  
 }
 
 
