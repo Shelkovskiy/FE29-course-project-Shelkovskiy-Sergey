@@ -3,7 +3,7 @@
 @import 'style.scss'; 
 @import 'header.scss'; 
 @import 'banner.scss'; 
-@import 'image.scss'; 
+@import "image.scss"; 
 @import 'portfolio.scss'; 
 @import 'slider.scss'; 
 @import 'download.scss'; 
@@ -30,10 +30,10 @@ html{
    position: relative;
    z-index: 2;
    @media (width: 1024px){
-      max-width: 984px;}
+      max-width: 984px;
+   padding: 0 15px;}
    @media(width:320px){
-      max-width: 280px;
-      padding: 0;
+     
    }
    
    }
@@ -46,10 +46,10 @@ html{
  flex-wrap: wrap;
    margin: 0 -15px;
    @media (width: 1024px){
-      max-width: 984px;
+     
    margin: 0 -15px;}
    @media (width: 320px){
-         max-width: 280px;
+        
          flex-direction: column;
          margin: auto;
    }

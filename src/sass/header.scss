@@ -85,18 +85,26 @@ border-bottom: 1px solid $grey ;
     &-item{
        width: 134px;
        border-bottom: 3px solid transparent;
+       &:hover{        
+         border-bottom: 3px solid $hover_grey;
+         transition: 0.1s;         
+         } 
+         &:active{border-bottom: 3px solid $active_RED;
+            transition: 0.1s;            
+                } 
+
        @media(width:1024px){
          width: 112px;
      
        
-     &:hover{
-        
+     &:hover{        
         border-bottom: 3px solid $hover_grey;
         transition: 0.1s;
+        }
+        &:active{border-bottom: 3px solid $active_RED;
+         transition: 0.1s;            
+             }  
         
-        
-                               
-     }  
                 }
    a{
       font-size: $_13px;
@@ -108,14 +116,13 @@ border-bottom: 1px solid $grey ;
          text-transform: uppercase;
          @media(width: 1024px){
          font-size: $_12px;
-         
-         
+                  
          }
 
          &:active{
             color:$active_RED;
-            
-    }
+                }
+
          
          }
    }
