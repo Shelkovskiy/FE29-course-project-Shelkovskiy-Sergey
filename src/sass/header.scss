@@ -1,9 +1,11 @@
-.header {padding: 6px 0 120px;
+.header {height: 100vh;
+ padding: 0;
   background-image: url(./img/bg.png);
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;  
    position: relative;
+   
 @media(max-width:1024px){
    padding: 0 0 126px;
 }
