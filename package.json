@@ -14,7 +14,7 @@
     "@parcel/transformer-sass": "^2.5.0",
     "parcel": "^2.5.0"
   },
-  "main": "index.js",
+  "main":"index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shelkovskiy/FE29-course-project-Shelkovskiy-Sergey.git"
