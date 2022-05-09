@@ -1,0 +1,138 @@
+.portfolio{
+   padding: 114px 0 114px;
+   @media (max-width:1024px){
+      padding: 78px 0px;
+   }
+   @media (max-width:320px){
+      padding: 35px 0 41px;
+    
+   }
+   
+}
+
+.portfolio-card{
+   margin:0 11px;
+   width: 270px;
+   @media (max-width:1024px){
+      width: 227px;
+      margin:0 8px;
+
+   }
+   @media (max-width:320px){
+      width: 280px;
+      margin-bottom: 56px;
+    
+   }
+   &-img{
+      width: 100%;
+      @media (max-width:1024px){
+         width: 227px;
+      }
+      @media (width:320px){
+         width: 280px;
+         
+       
+      }
+      img{
+          @media (max-width:1024px){
+      width: 227px;
+   }
+   @media (max-width:320px){
+      width: 280px;
+    
+   }
+      }
+         }
+   .portfolio-name{
+      width: 100%;
+      font-size: $_24px;
+      line-height: $_28px;
+      color:rgba(45, 48, 51, 1);
+      text-align: left;
+      margin-top: 30px;
+      @media (max-width:1024px){
+         font-size: $_18px;
+         line-height: 18px;
+      }
+      @media (max-width:320px){
+         font-size: $_18px;
+         line-height: 21px;
+         margin-top: 25px;
+         margin-bottom: 4px;
+      }
+      
+   }
+   .portfolio-position{
+      color:rgba(255, 67, 67, 1);
+      font-size: $_18px;
+      line-height: $_21px;
+      text-transform: uppercase;
+      @media (max-width:1024px){
+         font-size: 14px;
+         line-height: 16px;
+      }
+      @media (max-width:320px){
+         font-size: $_14px;
+         line-height: 16px;
+         margin-bottom: 38px;
+      }
+      
+   }
+   .portfolio-about{
+      margin-top: 22px;
+      width: 100%;
+      .portfolio-text{
+         color:rgba(108, 114, 121, 1);
+         text-align: left;
+         font-size: $_18px;
+         line-height: $_21px;
+         @media (max-width:1024px){
+            font-size: 14px;
+         line-height: 16px;
+         }
+         @media (max-width:320px){
+            font-size: $_14px;
+            line-height: 16px;
+            
+         }
+      }
+   }
+   .portfolio-social_media{margin-top: 38px;
+      .media-list{
+         display: flex;
+         justify-content: flex-start;
+         .list-item{
+            border: 2px solid rgba(198, 203, 205, 1);
+            margin-right:6px;
+
+         }
+         .fa-facebook{
+            font-size: $_38px;
+            color:rgba(198, 203, 205, 1);
+            padding: 3px;
+            @media (max-width:1024px){
+               font-size:$_28px;            
+            }
+           
+         }
+         .fa-twitter{font-size: $_38px;
+            color:rgba(198, 203, 205, 1);
+            padding: 3px;
+            @media (max-width:1024px){
+               font-size:$_28px;            
+            }
+
+         }
+         .fa-linkedin-in{
+            font-size: $_38px;
+            color:rgba(198, 203, 205, 1);
+            padding: 3px;
+            @media (max-width:1024px){
+               font-size:$_28px;            
+            }
+            
+         }
+
+      }
+   }
+}

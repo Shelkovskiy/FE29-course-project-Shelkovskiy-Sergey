@@ -21,6 +21,7 @@
 
 html{
    font-family: 'Raleway', sans-serif;
+   
    font-size: 16px;
 }
 .container{
@@ -28,12 +29,14 @@ html{
    margin: auto;
    padding: 0 15px;
    position: relative;
-   z-index: 2;
-   @media (width: 1024px){
+   z-index: 3;
+   @media (max-width: 1024px){
       max-width: 984px;
-   padding: 0 15px;}
-   @media(width:320px){
-     
+      padding: 0;
+   }
+   @media(max-width:320px){
+      max-width: 280px;
+     padding: 0;
    }
    
    }
@@ -45,13 +48,13 @@ html{
    align-items: center;
  flex-wrap: wrap;
    margin: 0 -15px;
-   @media (width: 1024px){
-     
+   @media (max-width:1024px){
+      
    margin: 0 -15px;}
-   @media (width: 320px){
-        
+
+   @media (max-width: 320px){        
          flex-direction: column;
-         margin: auto;
+       
    }
   
 }
