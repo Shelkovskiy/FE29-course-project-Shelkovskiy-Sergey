@@ -55,16 +55,19 @@
 .download-button {width: 370px;
    height: 80px;
    background-color:$red;
-   font-size: $_24px;
-   line-height: 28px;
-   text-align: center;
-   color: $white;
-   font-weight: 900;   
+    
    display: block;
    margin: auto;
    margin-top: 80px;
    border: 1px solid $red;
    cursor: pointer;
+   a{font-size: $_24px;
+      line-height: 28px;
+      text-align: center;
+      color: $white;
+      font-weight: 900;   
+
+    }
     
 
    @media(max-width:1024px) {
